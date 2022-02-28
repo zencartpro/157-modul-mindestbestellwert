@@ -1,0 +1,22 @@
+﻿Mindestbestellwert 1.6.0 für Zen Cart 1.5.7 deutsch
+
+deutsche Übersetzung/Anpassung des Moduls Minimum Order von Andrew Berezin:
+http://www.zen-cart.com/downloads.php?do=file&id=402
+
+Sinn und Zweck:
+Unter Konfiguration > Minimale Werte kann ein genereller Mindestbestellwert sowie ein Mindestbestellwert für Erstbestellungen eingestellt werden.
+Werden die eingestellten Mindestbestellwerte nicht erreicht, erscheint im Warenkorb ein entsprechender Hinweis und es ist kein Checkout möglich.
+
+Installation:
+
+1)
+Im Ordner SQL die install.sql mit einem Texteditor öffnen und den Inhalt ins Eingabefeld kopieren unter Admin > Tools > SQL Patches installieren
+Absenden
+Dadurch werden die nötigen Datenbankeinträge vorgenommen.
+
+2)
+Die Ordner/Dateien im Ordner NEUE DATEIEN in der vorgegebenen Struktur ins Shopverzeichnis hochladen.
+Es werden keinerlei bestehenden Dateien überschrieben
+
+3)
+Unter Konfiguration > Minimale Werte die Mindestbestellwerte einstellen
