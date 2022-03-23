@@ -7,6 +7,16 @@ Sinn und Zweck:
 Unter Konfiguration > Minimale Werte kann ein genereller Mindestbestellwert sowie ein Mindestbestellwert für Erstbestellungen eingestellt werden.
 Werden die eingestellten Mindestbestellwerte nicht erreicht, erscheint im Warenkorb ein entsprechender Hinweis und es ist kein Checkout möglich.
 
+getestet mit:
+
+Zen Cart Version:
+1.5.7 deutsch
+
+PHP Version:
+7.4.x
+8.0.x
+
+
 Installation:
 
 1)
