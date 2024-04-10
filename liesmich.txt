@@ -1,4 +1,4 @@
-﻿Mindestbestellwert 1.6.0 für Zen Cart 1.5.7 deutsch
+﻿Mindestbestellwert 1.6.1 für Zen Cart 1.5.7h deutsch
 
 deutsche Übersetzung/Anpassung des Moduls Minimum Order von Andrew Berezin:
 http://www.zen-cart.com/downloads.php?do=file&id=402
@@ -10,11 +10,11 @@ Werden die eingestellten Mindestbestellwerte nicht erreicht, erscheint im Warenk
 getestet mit:
 
 Zen Cart Version:
-1.5.7 deutsch
+1.5.7h deutsch
 
 PHP Version:
-7.4.x
-8.0.x
+8.1.x
+8.2.x
 
 
 Installation:
@@ -23,6 +23,7 @@ Installation:
 Im Ordner SQL die install.sql mit einem Texteditor öffnen und den Inhalt ins Eingabefeld kopieren unter Admin > Tools > SQL Patches installieren
 Absenden
 Dadurch werden die nötigen Datenbankeinträge vorgenommen.
+Unter PHP 8.2 kann dabei ein völlig harmloses Debug Log erzeugt werden (Undefined array key 1 ...). Einfach löschen.
 
 2)
 Die Ordner/Dateien im Ordner NEUE DATEIEN in der vorgegebenen Struktur ins Shopverzeichnis hochladen.
